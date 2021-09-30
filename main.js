@@ -1,3 +1,5 @@
+console.log('Xify');
+
 function xify(str) {
     let output = '';
     for (let i = 0; i < str.length; i++) {
@@ -10,6 +12,8 @@ console.log(xify('hello'));
 console.log(xify('hi there'));
 
 // yellingChars =======================================
+
+console.log('YellingChars');
 
 function yellingChars(ycs) {
     let output = '';
@@ -30,6 +34,8 @@ console.log(yellingChars('oh hello'));
 
 // indexChars
 
+console.log('IndexChars');
+
 function indexedChars(str) {
     let output = '';
     for (let i = 0; i < str.length; i++) {
@@ -42,6 +48,8 @@ console.log(indexedChars('Wow this is neat'));
 
 //numberChars 
 
+console.log('NumberChars');
+
 function numberChars(str) {
     let output = '';
     for (let i = 0; i < str.length; i++) {
@@ -50,11 +58,13 @@ function numberChars(str) {
 return output;
 }
 
-console.log(numberedChars('hello'));
+console.log(numberChars('hello'));
 console.log(numberChars('bye')); 
 
 
 //exclaim 
+
+console.log('Exclaim');
 
 console.log('\n' + "exclaim:");
 
@@ -75,6 +85,8 @@ console.log(exclaim('What are you doing? are you a fool.'));
 
 //repeat it
 
+console.log('Repeat it');
+
 
 function repeatIt(str, n) {
 	
@@ -92,6 +104,7 @@ console.log(repeatIt("oh hi!", 8));
 
 //truncate
 
+console.log('Truncate');
 
 function truncate(str) {
     if (str.length > 15) {
@@ -117,6 +130,8 @@ console.log(truncate("Well, that's just, like, your opinion man."));
 
 //ciEmailify
 
+console.log('ciEmailify');
+
 function ciEmailify(str) {
     let output = '';
     for (let i = 0; i < str.length; i++) {
@@ -135,6 +150,8 @@ console.log(ciEmailify('Anthony DeRosa'));
 
 // reverse
 
+console.log('Reverse');
+
 function reverse(str) {
     let output = '';
     for (let i = 0; i < str.length; i++) {
@@ -150,6 +167,8 @@ console.log(reverse('mesuara'));
 
 
 //onlyVowels
+
+console.log('OnlyVowels');
 
 function onlyVowels(str) {
     let output = '';
